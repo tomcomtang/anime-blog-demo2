@@ -1,0 +1,20 @@
+Image 1:
+  full_link: "http://localhost:4000/images/anime-3.jpg"
+  thumb_link: "http://localhost:4000/images/anime-4.jpg"
+  descr: image desc...
+Image 2:
+  full_link: "http://localhost:4000/images/anime-5.jpg"
+  thumb_link: "http://localhost:4000/images/anime-6.jpg"
+  descr: image desc...
+Image 3:
+  full_link: "http://localhost:4000/images/anime-7.jpg"
+  thumb_link: "http://localhost:4000/images/anime-8.jpg"
+  descr: image desc...
+Image 4:
+  full_link: "http://localhost:4000/images/anime-9.jpg"
+  thumb_link: "http://localhost:4000/images/anime-10.jpg"
+  descr: image desc...
+Image 5:
+  full_link: "http://localhost:4000/images/anime-11.jpg"
+  thumb_link: "http://localhost:4000/images/anime-12.png"
+  descr: image desc...
