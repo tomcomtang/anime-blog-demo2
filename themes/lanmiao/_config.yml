@@ -1,0 +1,129 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+    favicon: "/img/logo_miccall.png"
+    keywords: miccall
+    backgroundpic : "images/anime-1.jpg"
+
+Intro:
+    name: MICCALL
+    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
+    HeadButton: MICCALL
+
+Nav:
+    Home_name: Home # 主页名字
+    is_use_categories : false # 是否启用分类
+    categories_name: categories # 分类名字
+    is_use_archives : false # 是否启用归档
+    archives_name: archives # 归档名字
+    icon: # 导航栏上的图标
+        github:
+            use: true # 是否启用
+            link: "https://github.com/miccall" # 点击地址
+        Twitter:
+            use: true
+            link: "https://x.com/TencentCloudEO"
+        Facebook:
+            use: false
+            link:
+        Instagram:
+            use: false
+            link:
+    pages:
+    # 自定义连接页
+    # link 的参数为相对路径，对应 hexo 目录下的 source 件夹内的相应文件夹
+        Album :
+            link: "/gallery/"
+        Links :
+            link: "/group/"
+        About:
+            link: "/about/"
+        #自定义标签名
+        #   link：“路径”
+
+    MainFirst: # 导航栏下面的主页
+        name: Miccall Metro # 大标题名字
+        description: Welcome to my Blog   # 第二标签 描述
+        pic_url: /img/me.jpg # 图片地址
+        goto_ulr: "" # 点击跳转
+
+    Gallery: # 图库页
+        title: Mr.metro
+        description: Just another fine responsive
+
+MainFirst:
+    name: Miccall Metro
+    description: Technical  Artist  of  Games   
+    pic_url: /images/anime-2.jpg
+    goto_ulr: ""
+
+Gallery :
+    title: Mr.metro 
+    description: Just another fine responsive 
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Custom code Render System 自定义代码渲染 
+# default dark funky okaidia twilight coy solarized  可选项  
+# link to review : http://prismjs.com/index.html   官网预览
+prism: coy
+
+# Custom Fonts
+fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
+
+# Comment Systems
+# Available value of "use":
+#     duoshuo | disqus | disqus_click | changyan
+comment:
+    use: false
+    shortname: http-miccall-tech 
+    duoshuo_thread_key_type: path
+    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+    changyan_appid:
+    changyan_conf:
+    changyan_thread_key_type: path
+    # 使用 valine 请先执行 npm install valine --save
+    valine: # Valine Comment System https://github.com/xCss/Valine
+       on: true
+       appId: 'your appId'
+       appKey: 'your appkey'
+       notify: true
+       verify: false
+       placeholder: Please leave your footprints
+       avatar: ''
+       avatar_cdn: https://gravatar.loli.net/avatar/ # avatar CDN address, default gravatar.loli.net
+       pageSize: 10 # comments of one page
+
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+    use: google
+    swiftype_key: Just another fine responsive  
+    
+
+# Leancloud Views
+leancloud:
+    enable: false
+    app_id: #你的 app_id
+    app_key: #你的 app_key
+    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+    enable: true
+    all_site_uv: true
+    post_pv: true
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+
+# Mathjax 支持库 
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
